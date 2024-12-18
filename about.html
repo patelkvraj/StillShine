@@ -9,14 +9,71 @@
     <div class="grid-container">
       <!-- Header -->
       <header>
-        <nav>
+        <!--Branding-->
+        <a href="#index.html">StillShine Logo</a>
+        <!--Search Bar-->
+        <div>
+          <label for="search_bar">Search<img src="images/icons/search.svg"></label>
+          <input id="search_bar" type="text" placeholder="Search..">
+        </div>
+        <!--Navbar-->
+        <div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="sell.html">SELL</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!--Categories-->
+        <div>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="sell.html">SELL</a></li>
+            <li>
+              <label for="categories">All Categories [Arrow Icon]</label>
+              <select name="categories" id="categories">
+                <optgroup label="Mobiles">
+                  <option>Tablets</option>
+                  <option>Cases & Covers</option>
+                  <option>iPhones</option>
+                  <option>Other - Mobiles</option>
+                </optgroup>
+                <optgroup label="Fashion">
+                  <option>Men</option>
+                  <option>Women</option>
+                  <option>Kids</option>
+                  <option>Other - Fashion</option>
+                </optgroup>
+                <optgroup label="Vehicles">
+                  <option>Tires</option>
+                  <option>Spare Parts</option>
+                  <option>Cars</option>
+                  <option>Motorcycles</option>
+                  <option>Other - Vehicles</option>
+                </optgroup>
+                <optgroup label="Wedding">
+                  <option>Shoes</option>
+                  <option>Clothing</option>
+                  <option>Invitations & Paper</option>
+                  <option>Decorations</option>
+                  <option>Accessories</option>
+                  <option>Other - Wedding</option>
+                </optgroup>
+                <optgroup label="Art">
+                  <option>Crafts Supplies</option>
+                  <option>Antiques</option>
+                  <option>Collectibles</option>
+                  <option>Handmade</option>
+                  <option>Other - Art</option>
+                </optgroup>
+              </select>
+            </li>
+            <li>Electronics</li>
+            <li>Sports & Outdoor</li>
+            <li>Home & Garden</li>
           </ul>
-        </nav>
+        </div>
       </header>
       <!-- Main content -->
       <main>
