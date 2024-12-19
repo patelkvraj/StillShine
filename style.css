@@ -1,0 +1,7 @@
+.nav_bar-flex_container {
+    background-color: yellow;
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    justify-content: space-between;
+}
