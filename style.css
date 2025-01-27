@@ -5,3 +5,7 @@
     padding: 0px;
     justify-content: space-between;
 }
+
+.flex_item-nav_bar a {
+    text-decoration: none;
+}
