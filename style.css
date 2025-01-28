@@ -1,3 +1,27 @@
+.grid_container-header {
+    border: solid red;
+    display: grid;
+    grid-template-columns: 10% auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "logo search navigation"
+    "category category category";
+}
+
+.logo {
+    grid-area: logo;
+    align-content: center;
+}
+
+.search {
+    grid-area: search;
+    align-content: center;
+}
+
+.category {
+    grid-area: category;
+}
+
 .nav_bar-flex_container {
     background-color: yellow;
     display: flex;
