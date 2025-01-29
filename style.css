@@ -33,3 +33,9 @@
 .flex_item-nav_bar a {
     text-decoration: none;
 }
+
+.flex_container-category {
+    background-color: rgb(202, 211, 202);
+    display: flex;
+    list-style-type: none;
+}
