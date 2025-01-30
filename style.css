@@ -1,5 +1,4 @@
 .grid_container-header {
-    border: solid red;
     display: grid;
     grid-template-columns: 10% auto auto;
     grid-template-rows: auto auto;
@@ -23,11 +22,11 @@
 }
 
 .nav_bar-flex_container {
-    background-color: yellow;
     display: flex;
     list-style-type: none;
     padding: 0px;
     justify-content: space-between;
+    width: 400px;
 }
 
 .flex_item-nav_bar a {
@@ -35,7 +34,13 @@
 }
 
 .flex_container-category {
-    background-color: rgb(202, 211, 202);
     display: flex;
     list-style-type: none;
+    justify-content: space-between;
+    width: 700px;
+}
+
+/* Categories */
+.image-arrow_down {
+    width: 10px;
 }
