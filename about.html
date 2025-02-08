@@ -11,14 +11,14 @@
       <!-- Header -->
       <header>
         <!--Branding-->
-        <a href="#index.html">StillShine Logo</a>
+        <a class="logo" href="#index.html">StillShine Logo</a>
         <!--Search Bar-->
-        <div>
+        <div class="search">
           <label for="search_bar">Search<img src="images/icons/search.svg"></label>
           <input id="search_bar" type="text" placeholder="Search">
         </div>
         <!--Navbar-->
-        <div>
+        <div class="navigation">
           <nav>
             <ul class="nav_bar-flex_container">
               <li class="flex_item-nav_bar"><a class="link-nav_bar" href="index.html">Home</a></li>
@@ -29,11 +29,11 @@
           </nav>
         </div>
         <!--Categories-->
-        <div>
-          <ul>
-            <li>
-              <label for="categories">All Categories [Arrow Icon]</label>
-              <select name="categories" id="categories">
+        <div class="categories">
+          <ul class="categories_list">
+            <li class="item_categories">
+              <label for="all_categories">All Categories <img class="image-arrow_down" src="images/icons/down-arrow.svg"></label>
+              <select name="all_categories" id="categories">
                 <optgroup label="Mobiles">
                   <option>Tablets</option>
                   <option>Cases & Covers</option>
@@ -70,9 +70,9 @@
                 </optgroup>
               </select>
             </li>
-            <li>Electronics</li>
-            <li>Sports & Outdoor</li>
-            <li>Home & Garden</li>
+            <li class="item_categories">Electronics</li>
+            <li class="item_categories">Sports & Outdoor</li>
+            <li class="item_categories">Home & Garden</li>
           </ul>
         </div>
       </header>
