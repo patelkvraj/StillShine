@@ -61,3 +61,8 @@ header{
 .main-content {
     text-align: center;
 }
+
+.callToAction-flex-container {
+    display: flex;
+    justify-content: center;
+}
