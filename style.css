@@ -1,3 +1,4 @@
+/* Header */
 header{
     /* border: solid blue; */
     display: grid;
@@ -54,4 +55,9 @@ header{
 }
 .image-arrow_down {
     width: 10px;
+}
+
+/* Main Content */
+.main-content {
+    text-align: center;
 }
