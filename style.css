@@ -35,6 +35,11 @@ header{
     /* width: 400px; */
 }
 
+.content-wrap {
+    margin: 0px auto;
+    width: 80%;
+    text-align: center;
+}
 
 /* Categories */
 .categories {
