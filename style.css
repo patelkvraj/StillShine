@@ -72,6 +72,11 @@ header{
     justify-content: center;
 }
 
+/* ----- Sell.html ----- */
+.product-price-selection {
+    display: block;
+}
+
 .categories-list-sell {
     display: flex;
     flex-wrap: wrap;
