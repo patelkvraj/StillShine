@@ -72,6 +72,12 @@ header{
     justify-content: center;
 }
 
+.categories-list-sell {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 /* Footer */
 footer {
     display: grid;
