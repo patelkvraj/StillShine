@@ -71,6 +71,12 @@ header{
     display: flex;
     justify-content: center;
 }
+/* ----- Index.html ----- */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 /* ----- Sell.html ----- */
 .product-price-selection {
