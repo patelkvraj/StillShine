@@ -10,3 +10,7 @@ Name: Vraj K. Patel
 ## About
 
 - A website that sells used items.
+
+## Copyright
+
+Copyright (c) 2024 StillShine. All rights reserved.
