@@ -44,6 +44,14 @@ label {
     color: inherit;
 }
 
+.button-sell {
+    background-color: green;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+/* Main content */
 .content-wrap {
     margin: 0px auto;
     width: 80%;
