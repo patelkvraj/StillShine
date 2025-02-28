@@ -94,6 +94,10 @@ label {
     justify-content: space-between;
 }
 
+.section-about p {
+    text-align: left;
+}
+
 /* ----- Sell.html ----- */
 .product-price-selection {
     display: block;
