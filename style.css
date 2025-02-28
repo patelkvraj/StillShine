@@ -45,9 +45,14 @@ label {
 }
 
 .button-sell {
-    background-color: green;
     font-weight: bold;
+}
+
+.button {
+    background-color: green;
+    color: white;
     padding: 10px 15px;
+    border: none;
     border-radius: 15px;
 }
 
