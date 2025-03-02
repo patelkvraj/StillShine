@@ -1,3 +1,8 @@
+.information {
+    text-align: left;
+}
+
+
 /* Header */
 header{
     display: grid;
@@ -97,10 +102,6 @@ label {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.section-about p {
-    text-align: left;
 }
 
 /* ----- Sell.html ----- */
