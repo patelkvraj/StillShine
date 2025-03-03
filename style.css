@@ -34,7 +34,7 @@ label {
 }
 
 .search input {
-    border: solid green;
+    border: solid rgb(117, 191, 59);
 }
 
 .nav_bar-flex_container {
@@ -54,7 +54,7 @@ label {
 }
 
 .button {
-    background-color: green;
+    background-color: rgb(117, 191, 59);
     color: white;
     padding: 10px 15px;
     border: none;
