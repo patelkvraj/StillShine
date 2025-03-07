@@ -2,6 +2,9 @@
     text-align: left;
 }
 
+.new-line {
+    display: block;
+}
 
 /* Header */
 header{
@@ -93,16 +96,28 @@ label {
     text-align: center;
 }
 
-.callToAction-flex-container {
-    display: flex;
-    justify-content: center;
-}
-
 /* ----- about.html ----- */
 
 /* ----- contact.html ----- */
 
 /* ----- Index.html ----- */
+.callToAction-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.callToAction-flex-item {
+    background-color: rgb(117, 191, 59);
+    padding: 50px;
+    border-radius: 30px;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
