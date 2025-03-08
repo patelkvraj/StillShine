@@ -2,7 +2,6 @@
     font-family: sans-serif;
 }
 
-
 .information {
     text-align: left;
 }
@@ -106,6 +105,10 @@ label {
 /* ----- contact.html ----- */
 
 /* ----- Index.html ----- */
+.section-about {
+    width: 85%;
+    margin: 0px auto;
+}
 .new-line-about {
     margin-top: 10px;
 }
