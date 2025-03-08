@@ -1,3 +1,8 @@
+.body {
+    font-family: sans-serif;
+}
+
+
 .information {
     text-align: left;
 }
@@ -101,6 +106,10 @@ label {
 /* ----- contact.html ----- */
 
 /* ----- Index.html ----- */
+.new-line-about {
+    margin-top: 10px;
+}
+
 .callToAction-flex-container {
     display: flex;
     justify-content: space-between;
