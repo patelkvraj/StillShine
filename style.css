@@ -105,6 +105,13 @@ label {
 /* ----- contact.html ----- */
 
 /* ----- Index.html ----- */
+.icon_index {
+    width: 10%;
+}
+h1 {
+    color: rgb(117, 191, 59);
+}
+
 .section-about {
     width: 85%;
     margin: 0px auto;
