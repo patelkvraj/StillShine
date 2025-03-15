@@ -50,6 +50,8 @@ label {
 
 .search input {
     border: solid rgb(117, 191, 59);
+    border-radius: 20px;
+    padding: 5px;
 }
 
 .nav_bar-flex_container {
