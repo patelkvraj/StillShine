@@ -40,6 +40,14 @@ label {
     display: none;
 }
 
+.all_categories_label {
+    display: inline;
+}
+
+.all_categories_drop_down_menu {
+    display: none;
+}
+
 .search input {
     border: solid rgb(117, 191, 59);
 }
