@@ -164,6 +164,10 @@ h1 {
     justify-content: space-between;
 }
 
+.categories-list-sell div {
+    flex: 1;
+}
+
 /* Footer */
 footer {
     display: grid;
