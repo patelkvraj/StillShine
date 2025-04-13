@@ -70,16 +70,17 @@ label {
     text-decoration: underline;
 }
 
-.button-sell {
-    font-weight: bold;
-}
-
 .button {
     background-color: rgb(117, 191, 59);
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 15px;
+}
+
+.button-sell {
+    text-decoration: none;
+    color: black;
 }
 
 /* Main content */
