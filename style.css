@@ -61,9 +61,13 @@ label {
     justify-content: space-between;
 }
 
-.flex_item-nav_bar a {
+.link-nav_bar {
     text-decoration: none;
     color: inherit;
+}
+
+.link-nav_bar:hover {
+    text-decoration: underline;
 }
 
 .button-sell {
