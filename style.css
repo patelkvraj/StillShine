@@ -63,12 +63,7 @@ label {
 }
 
 .link-nav_bar {
-    text-decoration: none;
     color: inherit;
-}
-
-.link-nav_bar:hover {
-    text-decoration: underline;
 }
 
 .button {
