@@ -63,6 +63,7 @@ label {
 }
 
 .link-nav_bar {
+    text-decoration: none;
     color: inherit;
 }
 
@@ -187,10 +188,6 @@ footer {
     align-items: center;
 }
 
-.flex_item_navbar_footer a {
-    text-decoration: none;
-    color: inherit;
-}
 .branding {
     grid-area: branding;
     display: flex;
