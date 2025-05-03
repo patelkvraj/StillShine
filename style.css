@@ -124,6 +124,15 @@ h1 {
     color: rgb(117, 191, 59);
 }
 
+.button_lets_sell {
+    text-decoration: none;
+    /* background-color: transparent; */
+}
+.button_lets_sell:hover {
+    background-color: white;
+    color: black;
+}
+
 .section-about {
     width: 85%;
     margin: 0px auto;
