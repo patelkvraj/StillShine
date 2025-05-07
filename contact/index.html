@@ -4,29 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Still Shine</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../style.css">
   </head>
   <body class="body">
     <div class="grid-container">
       <header>
         <!--Branding-->
         <a class="logo" href="#index.html">
-          <img src="images/Logo-StillShine.svg" alt="Still Shine logo">
+          <img src="../images/Logo-StillShine.svg" alt="Still Shine logo">
         </a>
         <!--Search Bar-->
         <div class="search">
-          <label for="search_bar">Search<img src="images/icons/search.svg"></label>
+          <label for="search_bar">Search<img src="../images/icons/search.svg"></label>
           <input id="search_bar" type="text" placeholder="Search">
-          <img src="images/icons/search.svg">
+          <img src="../images/icons/search.svg">
         </div>
         <!--Navbar-->
         <div class="navigation">
           <nav>
             <ul class="nav_bar-flex_container">
-              <li><a id="home_header" class="link-nav_bar" href="index.html">Home</a></li>
-                <li><a id="about_header" class="link-nav_bar" href="about.html">About</a></li>
-                <li><a id="contact_header" class="link-nav_bar" href="contact.html">Contact Us</a></li>
-                <li><a class="button button-sell" href="sell.html">SELL</a></li>
+              <li><a id="home_header" class="link-nav_bar" href="../">Home</a></li>
+                <li><a id="about_header" class="link-nav_bar" href="../about/">About</a></li>
+                <li><a id="contact_header" class="link-nav_bar" href="../contact/">Contact Us</a></li>
+                <li><a class="button button-sell" href="../sell/">SELL</a></li>
             </ul>
           </nav>
         </div>
@@ -34,7 +34,7 @@
         <div class="categories">
           <ul class="categories_list">
             <li class="item_categories">
-              <label class="all_categories_label" for="all_categories">All Categories <img class="image-arrow_down" src="images/icons/down-arrow.svg"></label>
+              <label class="all_categories_label" for="all_categories">All Categories <img class="image-arrow_down" src="../images/icons/down-arrow.svg"></label>
               <select class="all_categories_drop_down_menu" name="all_categories" id="categories">
                 <optgroup label="Mobiles">
                   <option>Tablets</option>
@@ -80,63 +80,24 @@
       </header>
       <!-- Main content -->
       <main class="main-content">
-        <div class="content-wrap"> 
-          <!-- Sell Price -->
-          <label for="product-price">
-            How much would you like to put for your product?
-          </label>
-          <select id="product-price" class="product-price-selection">
-            <option>$$$</option>
-            <option>10</option>
-            <option>50</option>
-            <option>100</option>
-            <option>Custom</option>
-          </select>
-          <p>OR</p>
-          <!-- Select Category -->
-          <h3>Select Category</h3>
-          <div class="categories-list-sell">
-            <!-- Electronics -->
-            <div>
-              <img width="50px" height="50px">
-              <p>Electronics</p>
-            </div>
-            <!-- Baby and Kids -->
-            <div>
-              <img width="50px" height="50px">
-              <p>Baby and Kids</p>
-            </div>
-            <!-- Sports & Outdoors -->
-            <div>
-              <img width="50px" height="50px">
-              <p>Sports & Outdoors</p>
-            </div>
-            <!-- Clothing, Shoes & Accessories -->
-            <div>
-              <img width="50px" height="50px">
-              <p>Clothing, Shoes & Accessories</p>
-            </div>
-            <!-- Vehicles -->
-            <div>
-              <img width="50px" height="50px">
-              <p>Vehicles</p>
-            </div>
-            <!-- Furniture -->
-            <div>
-              <img width="50px" height="50px">
-              <p>Furniture</p>
-            </div>
-            <!-- Pet Supplies -->
-            <div>
-              <img width="50px" height="50px">
-              <p>Pet Supplies</p>
-            </div>
-            <!-- Other -->
-            <div>
-              <img width="50px" height="50px">
-              <p>Other</p>
-            </div>
-          </div>
+        <div class="content-wrap">
+          <div class="grid-item main">
+            <img src="../images/icons/chat.svg">
+            <h1>Connect With Us</h1>
+            <p>Simply leave a message and we'll get right back to you.</p>
+            <form>
+              <label for="full_name">Full name*</label>
+              <input id="full_name" placeholder="Full name*" /><br />
+              <label for="phone_number">Phone number</label>
+              <input id="phone_number" placeholder="Phone number" /><br />
+              <label for="email_address">Email address*</label>
+              <input id="email_address" placeholder="Email address*" /><br />
+              <label for="message">Your message*</label>
+              <textarea id="message" placeholder="Your message*" rows="4" cols="20"></textarea><br />
+              <button class="button">Submit</button>
+              <p><img src="../images/icons/lock.svg">We never share your private date.</p>
+            </form>
+          </div>  
         </div>
       </main>
       <footer>
@@ -154,9 +115,9 @@
             <p>All our pages</p>
             <nav class="navbar_footer">
               <ul class="flex_container_navbar_footer">
-                <li><a id="home_footer" class="link-nav_bar" href="index.html">Home</a></li>
-                <li><a id="about_footer" class="link-nav_bar" href="about.html">About</a></li>
-                <li><a id="contact_footer" class="link-nav_bar" href="contact.html">Contact Us</a></li>
+                <li><a id="home_footer" class="link-nav_bar" href="../">Home</a></li>
+                <li><a id="about_footer" class="link-nav_bar" href="../about/">About</a></li>
+                <li><a id="contact_footer" class="link-nav_bar" href="../contact/">Contact Us</a></li>
               </ul>
             </nav>
           </div>
@@ -164,7 +125,7 @@
         <!--Branding-->
         <div class="branding">
           <a class="logo" href="#index.html">
-            <img src="images/Logo-StillShine.svg" alt="Still Shine logo">
+            <img src="../images/Logo-StillShine.svg" alt="Still Shine logo">
           </a>
           <p>Earn money and save the world at the same time.</p>
         </div>
@@ -179,18 +140,18 @@
         <!--Social Links-->
         <div class="social-links horizontal-list">
           <a href="https://www.facebook.com/" target="_blank">
-            <img src="images/icons/facebook.svg">
+            <img src="../images/icons/facebook.svg">
           </a">
           <a href="https://www.instagram.com/" target="_blank">
-            <img src="images/icons/instagram.svg">
+            <img src="../images/icons/instagram.svg">
           </a>
           <a href="https://www.youtube.com/" target="_blank">
-            <img src="images/icons/youtube.svg">
+            <img src="../images/icons/youtube.svg">
           </a>
         </div>
         </div>
       </footer>
     </div>
-    <script src="./script.js"></script>
+    <script src="../script.js"></script>
   </body>
 </html>
