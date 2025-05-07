@@ -126,7 +126,17 @@ h1 {
 
 .button_lets_sell {
     text-decoration: none;
-    /* background-color: transparent; */
+    position: relative;
+    bottom: 500px;
+    background-color: transparent;
+    border: 1.5px solid white;
+    border-radius: 0 !important;
+    transition: all 0.3s ease-in-out;
+    font-size: x-small;
+    letter-spacing: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
 }
 .button_lets_sell:hover {
     background-color: white;
