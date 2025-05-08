@@ -4,6 +4,8 @@
 
 .information {
     text-align: left;
+    border-bottom: solid;
+    padding-bottom: 40px;
 }
 
 .new-line {
