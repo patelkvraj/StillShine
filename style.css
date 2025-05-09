@@ -4,8 +4,7 @@
 
 .information {
     text-align: left;
-    border-bottom: solid;
-    padding-bottom: 40px;
+    margin: 0;
 }
 
 .new-line {
