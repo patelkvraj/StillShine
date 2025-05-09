@@ -147,6 +147,8 @@ h1 {
 .section-about {
     width: 85%;
     margin: 0px auto;
+    border-bottom: 3.5px solid;
+    padding-bottom: 40px;
 }
 .new-line-about {
     margin-top: 10px;
