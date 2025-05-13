@@ -1,28 +1,28 @@
 /* Highlight the active page */
 const currentPage = window.location.pathname;
 const navItemEls = document.querySelectorAll('.link-nav_bar');
-if (checkStringEnding(currentPage, '/index.html')) {
-    navItemEls.forEach(el => {
-        el.style.textDecoration = 'none';
-    });
-    document.getElementById('home_header').style.textDecoration = 'underline';
-    document.getElementById('home_footer').style.textDecoration = 'underline';
-} else if (checkStringEnding(currentPage, '/about.html')) {
+if (checkStringEnding(currentPage, '/about/')) {
     navItemEls.forEach(el => {
         el.style.textDecoration = 'none';
     });
     document.getElementById('about_header').style.textDecoration = 'underline';
     document.getElementById('about_footer').style.textDecoration = 'underline';
-} else if (checkStringEnding(currentPage, '/contact.html')) {
+} else if (checkStringEnding(currentPage, '/contact/')) {
     navItemEls.forEach(el => {
         el.style.textDecoration = 'none';
     });
     document.getElementById('contact_header').style.textDecoration = 'underline';
     document.getElementById('contact_footer').style.textDecoration = 'underline';
+} else if (checkStringEnding(currentPage, '/sell/')) {
+    navItemEls.forEach(el => {
+        el.style.textDecoration = 'none';
+    });
 } else {
     navItemEls.forEach(el => {
         el.style.textDecoration = 'none';
     });
+    document.getElementById('home_header').style.textDecoration = 'underline';
+    document.getElementById('home_footer').style.textDecoration = 'underline';
 }
 
 /**
