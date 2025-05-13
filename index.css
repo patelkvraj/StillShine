@@ -201,6 +201,24 @@ h1 {
     width: 200px;
 }
 
+.description__product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.information__product {
+    text-align: left;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.amount__product {
+    text-align: center;
+    flex-grow: 1;
+}
+
 /* ----- Sell.html ----- */
 .product-price-selection {
     display: block;
