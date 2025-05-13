@@ -196,6 +196,11 @@ h1 {
     justify-content: space-between;
 }
 
+.product-list img {
+    height: 200px;
+    width: 200px;
+}
+
 /* ----- Sell.html ----- */
 .product-price-selection {
     display: block;
