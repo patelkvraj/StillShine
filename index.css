@@ -227,6 +227,7 @@ footer {
   grid-template-areas:
     "newsletter-and-navigation branding"
     "footer-legal social-links";
+  background-color: #e5e5e5;
 }
 
 .newsletter-and-navigation {
