@@ -213,6 +213,12 @@ h1 {
   flex-grow: 1;
 }
 
+.section_call_to_action button {
+  margin-top: 40px;
+  font-size: medium;
+  padding: auto 16px;
+}
+
 /* Footer */
 footer {
   display: grid;
