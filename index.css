@@ -85,7 +85,6 @@ label {
     color: black;
 }
 
-/* Main content */
 .content-wrap {
     margin: 0px auto;
     width: 80%;
@@ -117,11 +116,6 @@ label {
     text-align: center;
 }
 
-/* ----- about.html ----- */
-
-/* ----- contact.html ----- */
-
-/* ----- Index.html ----- */
 .icon_index {
     width: 10%;
 }
@@ -217,21 +211,6 @@ h1 {
 .amount__product {
     text-align: center;
     flex-grow: 1;
-}
-
-/* ----- Sell.html ----- */
-.product-price-selection {
-    display: block;
-}
-
-.categories-list-sell {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.categories-list-sell div {
-    flex: 1;
 }
 
 /* Footer */

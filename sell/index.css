@@ -1,0 +1,13 @@
+.product-price-selection {
+    display: block;
+}
+
+.categories-list-sell {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.categories-list-sell div {
+    flex: 1;
+}
