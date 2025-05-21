@@ -1,38 +1,38 @@
 /* Highlight the active page */
 const currentPage = window.location.pathname;
-const navItemEls = document.querySelectorAll('.link-nav_bar');
-if (checkStringEnding(currentPage, '/about/')) {
-    navItemEls.forEach(el => {
-        el.style.textDecoration = 'none';
-    });
-    document.getElementById('about_header').style.textDecoration = 'underline';
-    document.getElementById('about_footer').style.textDecoration = 'underline';
-} else if (checkStringEnding(currentPage, '/contact/')) {
-    navItemEls.forEach(el => {
-        el.style.textDecoration = 'none';
-    });
-    document.getElementById('contact_header').style.textDecoration = 'underline';
-    document.getElementById('contact_footer').style.textDecoration = 'underline';
-} else if (checkStringEnding(currentPage, '/sell/')) {
-    navItemEls.forEach(el => {
-        el.style.textDecoration = 'none';
-    });
+const navItemEls = document.querySelectorAll(".link-nav_bar");
+if (checkStringEnding(currentPage, "/about/")) {
+  navItemEls.forEach((el) => {
+    el.style.textDecoration = "none";
+  });
+  document.getElementById("about_header").style.textDecoration = "underline";
+  document.getElementById("about_footer").style.textDecoration = "underline";
+} else if (checkStringEnding(currentPage, "/contact/")) {
+  navItemEls.forEach((el) => {
+    el.style.textDecoration = "none";
+  });
+  document.getElementById("contact_header").style.textDecoration = "underline";
+  document.getElementById("contact_footer").style.textDecoration = "underline";
+} else if (checkStringEnding(currentPage, "/sell/")) {
+  navItemEls.forEach((el) => {
+    el.style.textDecoration = "none";
+  });
 } else {
-    navItemEls.forEach(el => {
-        el.style.textDecoration = 'none';
-    });
-    document.getElementById('home_header').style.textDecoration = 'underline';
-    document.getElementById('home_footer').style.textDecoration = 'underline';
+  navItemEls.forEach((el) => {
+    el.style.textDecoration = "none";
+  });
+  document.getElementById("home_header").style.textDecoration = "underline";
+  document.getElementById("home_footer").style.textDecoration = "underline";
 }
 
 /**
  * Checks if a string ends with a specified substring.
- * 
- * 
+ *
+ *
  * @param {string} str The string to check.
  * @param {string} ending ending The substring to check if the `str` ends with.
  * @returns {boolean} `true` if `str` ends with `ending`, `false` otherwise.
  */
 function checkStringEnding(str, ending) {
-    return str.endsWith(ending);
+  return str.endsWith(ending);
 }
