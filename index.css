@@ -250,21 +250,55 @@ h1 {
 
 /* Footer */
 footer {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  grid-template-areas:
-    "newsletter-and-navigation branding"
-    "footer-legal social-links";
   background-color: #e5e5e5;
 }
 
+.footer__top {
+  display: flex;
+}
+
 .newsletter-and-navigation {
-  grid-area: newsletter-and-navigation;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-grow: 1;
+}
+
+.newsletter {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.newsletter p {
+  margin: 0px;
+  color: rgb(117, 191, 59);
+}
+
+.newsletter input {
+  height: 30px;
+  width: 60%;
+}
+
+.newsletter button {
+  border-radius: 0px;
+}
+
+.navbar__footer {
+  text-align: left;
+  color: rgb(117, 191, 59);
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.navbar__footer h4 {
+  font-size: 18px;
+}
+
+.navbar__footer__links {
+  color: black;
+}
+
+.flex_container_navbar_footer {
+  margin-top: 10px;
 }
 
 .branding {
@@ -273,22 +307,43 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: rgb(126, 126, 126);
+}
+
+.branding p {
+  font-size: 15px;
+}
+
+.legal__socialLinks {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px rgb(201, 201, 201);
 }
 
 .footer-legal {
-  grid-area: footer-legal;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 28%;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(117, 191, 59);
 }
 
 .social-links {
-  grid-area: social-links;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 15px 0;
+  width: 15%;
 }
 
-.horizontal-list {
-  display: flex;
+.social-links a img {
+  width: 30px;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
