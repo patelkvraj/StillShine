@@ -73,11 +73,16 @@ label {
   padding: 5px;
 }
 
+.navigation {
+  margin: auto;
+  width: 100%;
+}
+
 .nav_bar-flex_container {
   display: flex;
   list-style-type: none;
   padding: 0px;
-  justify-content: space-between;
+  justify-content: space-between;/
 }
 
 .link-nav_bar {
