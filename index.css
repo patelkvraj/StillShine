@@ -36,6 +36,7 @@ header {
   grid-template-areas:
     "logo search navigation"
     "categories categories categories";
+  margin: -10px 15px 15px 15px;
 }
 
 .logo {
