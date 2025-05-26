@@ -133,6 +133,7 @@ label {
 
 .main-content {
   text-align: center;
+  border-top: 2px solid rgb(179, 179, 179);;
 }
 
 .icon_index {
