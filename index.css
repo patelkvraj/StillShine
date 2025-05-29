@@ -24,7 +24,8 @@ h5,
 h6,
 ul,
 ol,
-p {
+p,
+form {
   margin: 0;
 }
 
