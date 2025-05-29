@@ -2,6 +2,36 @@
   display: block;
 }
 
+.main-content {
+  padding: 70px;
+}
+
+.main-content label {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.main-content select {
+  background-color: rgb(117, 191, 59);
+  color: white;
+  border-radius: 5px;
+  width: 150px;
+  padding: 4px;
+}
+
+.OR__separator {
+  margin: 50px auto;
+  font-size: x-large;
+}
+
+h3 {
+  color: black;
+  margin-bottom: 10px;
+}
+
 .categories-list-sell {
   display: flex;
   flex-wrap: wrap;
@@ -10,4 +40,10 @@
 
 .categories-list-sell div {
   flex: 1;
+  margin: 10px;
+}
+
+.main-content img {
+  width: 150px;
+  height: 150px;
 }
