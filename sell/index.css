@@ -41,6 +41,7 @@ h3 {
 .categories-list-sell div {
   flex: 1;
   margin: 10px;
+  background-color: #e5e5e5;
 }
 
 .main-content img {
