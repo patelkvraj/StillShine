@@ -52,3 +52,7 @@ h3 {
   width: 150px;
   height: 150px;
 }
+
+.other__category {
+  place-content: center;
+}
