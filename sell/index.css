@@ -35,17 +35,17 @@ h3 {
 .categories-list-sell {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .categories-list-sell div {
-  flex: 1;
   margin: 10px;
   background-color: #e5e5e5;
+  width: 150px;
 }
 
 .categories-list-sell p {
   font-size: large;
+  font-size: 1rem;
 }
 
 .main-content img {
