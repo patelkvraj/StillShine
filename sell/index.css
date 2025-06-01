@@ -44,6 +44,10 @@ h3 {
   background-color: #e5e5e5;
 }
 
+.categories-list-sell p {
+  font-size: large;
+}
+
 .main-content img {
   width: 150px;
   height: 150px;
