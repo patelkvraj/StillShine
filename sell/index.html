@@ -18,98 +18,104 @@
   <body class="body">
     <div class="grid-container">
       <header>
-        <!--Branding-->
-        <a class="logo" href="../">
-          <img src="../images/Logo-StillShine.svg" alt="Still Shine logo" />
-        </a>
-        <!--Search Bar-->
-        <div class="search">
-          <label for="search_bar">
-            Search
+        <div class="content-wrap header__content__wrap">
+          <!--Branding-->
+          <a class="logo" href="../">
+            <img src="../images/Logo-StillShine.svg" alt="Still Shine logo" />
+          </a>
+          <!--Search Bar-->
+          <div class="search">
+            <label for="search_bar">
+              Search
+              <img src="../images/icons/search.svg" />
+            </label>
+            <input id="search_bar" type="text" placeholder="Search" />
             <img src="../images/icons/search.svg" />
-          </label>
-          <input id="search_bar" type="text" placeholder="Search" />
-          <img src="../images/icons/search.svg" />
-        </div>
-        <!--Navbar-->
-        <div class="navigation">
-          <nav>
-            <ul class="nav_bar-flex_container">
-              <li>
-                <a id="home_header" class="link-nav_bar" href="../">Home</a>
+          </div>
+          <!--Navbar-->
+          <div class="navigation">
+            <nav>
+              <ul class="nav_bar-flex_container">
+                <li>
+                  <a id="home_header" class="link-nav_bar" href="../">Home</a>
+                </li>
+                <li>
+                  <a id="about_header" class="link-nav_bar" href="../about/">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a
+                    id="contact_header"
+                    class="link-nav_bar"
+                    href="../contact/"
+                  >
+                    Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a class="button button-sell" href="../sell/"> SELL </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!--Categories-->
+          <div class="categories">
+            <ul class="categories_list">
+              <li class="item_categories">
+                <label class="all_categories_label" for="all_categories"
+                  >All Categories
+                  <img
+                    class="image-arrow_down"
+                    src="../images/icons/down-arrow.svg"
+                  />
+                </label>
+                <select
+                  class="all_categories_drop_down_menu"
+                  name="all_categories"
+                  id="categories"
+                >
+                  <optgroup label="Mobiles">
+                    <option>Tablets</option>
+                    <option>Cases & Covers</option>
+                    <option>iPhones</option>
+                    <option>Other - Mobiles</option>
+                  </optgroup>
+                  <optgroup label="Fashion">
+                    <option>Men</option>
+                    <option>Women</option>
+                    <option>Kids</option>
+                    <option>Other - Fashion</option>
+                  </optgroup>
+                  <optgroup label="Vehicles">
+                    <option>Tires</option>
+                    <option>Spare Parts</option>
+                    <option>Cars</option>
+                    <option>Motorcycles</option>
+                    <option>Other - Vehicles</option>
+                  </optgroup>
+                  <optgroup label="Wedding">
+                    <option>Shoes</option>
+                    <option>Clothing</option>
+                    <option>Invitations & Paper</option>
+                    <option>Decorations</option>
+                    <option>Accessories</option>
+                    <option>Other - Wedding</option>
+                  </optgroup>
+                  <optgroup label="Art">
+                    <option>Crafts Supplies</option>
+                    <option>Antiques</option>
+                    <option>Collectibles</option>
+                    <option>Handmade</option>
+                    <option>Other - Art</option>
+                  </optgroup>
+                </select>
               </li>
-              <li>
-                <a id="about_header" class="link-nav_bar" href="../about/">
-                  About
-                </a>
-              </li>
-              <li>
-                <a id="contact_header" class="link-nav_bar" href="../contact/">
-                  Contact Us
-                </a>
-              </li>
-              <li>
-                <a class="button button-sell" href="../sell/"> SELL </a>
-              </li>
+              <li class="item_categories">Electronics</li>
+              <li class="item_categories">Sports & Outdoor</li>
+              <li class="item_categories">Home & Garden</li>
             </ul>
-          </nav>
-        </div>
-        <!--Categories-->
-        <div class="categories">
-          <ul class="categories_list">
-            <li class="item_categories">
-              <label class="all_categories_label" for="all_categories"
-                >All Categories
-                <img
-                  class="image-arrow_down"
-                  src="../images/icons/down-arrow.svg"
-                />
-              </label>
-              <select
-                class="all_categories_drop_down_menu"
-                name="all_categories"
-                id="categories"
-              >
-                <optgroup label="Mobiles">
-                  <option>Tablets</option>
-                  <option>Cases & Covers</option>
-                  <option>iPhones</option>
-                  <option>Other - Mobiles</option>
-                </optgroup>
-                <optgroup label="Fashion">
-                  <option>Men</option>
-                  <option>Women</option>
-                  <option>Kids</option>
-                  <option>Other - Fashion</option>
-                </optgroup>
-                <optgroup label="Vehicles">
-                  <option>Tires</option>
-                  <option>Spare Parts</option>
-                  <option>Cars</option>
-                  <option>Motorcycles</option>
-                  <option>Other - Vehicles</option>
-                </optgroup>
-                <optgroup label="Wedding">
-                  <option>Shoes</option>
-                  <option>Clothing</option>
-                  <option>Invitations & Paper</option>
-                  <option>Decorations</option>
-                  <option>Accessories</option>
-                  <option>Other - Wedding</option>
-                </optgroup>
-                <optgroup label="Art">
-                  <option>Crafts Supplies</option>
-                  <option>Antiques</option>
-                  <option>Collectibles</option>
-                  <option>Handmade</option>
-                  <option>Other - Art</option>
-                </optgroup>
-              </select>
-            </li>
-            <li class="item_categories">Electronics</li>
-            <li class="item_categories">Sports & Outdoor</li>
-            <li class="item_categories">Home & Garden</li>
-          </ul>
+          </div>
         </div>
       </header>
       <!-- Main content -->

@@ -31,6 +31,10 @@ form {
 
 /* Header */
 header {
+  background-color: white;
+}
+
+.header__content__wrap {
   display: grid;
   grid-template-columns: 10% auto auto;
   grid-template-rows: auto auto;
