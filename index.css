@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: sans-serif;
 }
 
@@ -38,7 +38,7 @@ header {
   z-index: 1;
 }
 
-.header__content__wrap {
+.header-content-wrap {
   display: grid;
   grid-template-columns: 10% auto auto;
   grid-template-rows: auto auto;
