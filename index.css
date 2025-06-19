@@ -123,9 +123,6 @@ label {
 header div.categories ul {
   list-style: none;
 }
-header div.categories ul ul {
-  display: none;
-}
 header div.categories ul li {
   float: left;
   padding: 5px 15px 30px 10px;
@@ -133,9 +130,8 @@ header div.categories ul li {
 header div.categories ul li span {
   font-weight: bold;
 }
-
-.image-arrow_down {
-  width: 10px;
+header div.categories ul ul {
+  display: none;
 }
 
 .main-content {
