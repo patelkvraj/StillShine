@@ -53,31 +53,23 @@ header {
   top: 0;
   z-index: 1;
 }
-
-.header-content-wrap {
-  display: grid;
-  grid-template-columns: 10% auto auto;
-  grid-template-rows: auto auto;
-  grid-template-areas:
-    "logo search navigation"
-    "categories categories categories";
-  margin: -10px 15px 15px 15px;
+header div.top-navigation {
+  display: flex;
 }
 
 .logo {
-  grid-area: logo;
   align-content: center;
-  padding: 0px;
 }
-
 .logo img {
   height: 60%;
 }
 
-.search {
-  grid-area: search;
+header div.content-wrap div.top-navigation div.search {
   align-content: center;
-  padding: 0px;
+  flex-grow: 1;
+}
+header div.content-wrap div.top-navigation div.search img {
+  display: inline;
 }
 
 label {
@@ -92,14 +84,17 @@ label {
 
 nav {
   margin: auto;
-  width: 100%;
+  flex-grow: 2;
 }
-
 nav ul {
   display: flex;
   list-style-type: none;
   padding: 0px;
-  justify-content: space-between;
+  justify-content: right;
+}
+nav ul li {
+  padding: 10px;
+  margin-left: 30px;
 }
 
 .link-nav_bar {
@@ -115,16 +110,17 @@ nav ul {
 .categories {
   padding: 0;
   align-items: left;
-  grid-area: categories;
   margin: 0;
 }
 
 header div.categories ul {
   list-style: none;
+  text-align: left;
+  margin-bottom: 25px;
 }
 header div.categories ul li {
-  float: left;
-  padding: 5px 15px 30px 10px;
+  display: inline-block;
+  padding: 5px 15px 5px 15px;
 }
 header div.categories ul li span {
   font-weight: bold;
