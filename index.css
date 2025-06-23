@@ -45,6 +45,7 @@ form {
 }
 
 /* Header */
+
 header {
   background-color: white;
   border-bottom: 2px solid rgb(179, 179, 179);
@@ -131,6 +132,8 @@ header div.categories ul li span {
 header div.categories ul ul {
   display: none;
 }
+
+/* Main Content */
 
 .main-content {
   text-align: center;
@@ -261,6 +264,7 @@ h1 {
 }
 
 /* Footer */
+
 footer {
   background-color: #e5e5e5;
 }
