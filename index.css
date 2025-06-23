@@ -30,6 +30,20 @@ form {
   padding: 0;
 }
 
+.button {
+  background-color: rgb(117, 191, 59);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+}
+
+.content-wrap {
+  margin: 0px auto;
+  width: 90%;
+  text-align: center;
+}
+
 /* Header */
 header {
   background-color: white;
@@ -92,26 +106,10 @@ nav {
   color: inherit;
 }
 
-.button {
-  background-color: rgb(117, 191, 59);
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 15px;
-}
-
 .button-sell {
   text-decoration: none;
   color: black;
 }
-
-.content-wrap {
-  margin: 0px auto;
-  width: 90%;
-  text-align: center;
-}
-
-/* Header - Categories */
 
 .categories {
   padding: 0;
