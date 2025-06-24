@@ -11,6 +11,12 @@ Name: Vraj K. Patel
 
 - A website that sells used items.
 
+## Credits
+
+### Images
+
+- Magnifying icon: [Magnifier](https://icons8.com/icon/132/search) icon by [Icons8](https://icons8.com/)
+
 ## Copyright
 
 Copyright (c) 2024 StillShine. All rights reserved.
