@@ -44,6 +44,10 @@ form {
   text-align: center;
 }
 
+label {
+  display: none;
+}
+
 /* Header */
 
 header {
@@ -70,22 +74,20 @@ header div.content-wrap div.top-navigation div.search {
   align-content: center;
   flex-grow: 1;
   height: fit-content;
+  border: solid rgb(117, 191, 59);
+  border-radius: 20px;
 }
 header div.content-wrap div.top-navigation div.search input {
+  border: none;
   width: 85%;
+  height: 35px;
+}
+header div.content-wrap div.top-navigation div.search input:focus {
+  outline: none;
 }
 header div.content-wrap div.top-navigation div.search img {
   display: inline;
-}
-
-label {
-  display: none;
-}
-
-.search input {
-  border: solid rgb(117, 191, 59);
-  border-radius: 20px;
-  padding: 5px;
+  height: 20px;
 }
 
 header div.content-wrap div.top-navigation nav {
