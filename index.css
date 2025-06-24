@@ -115,16 +115,13 @@ header div.content-wrap div.top-navigation nav ul li {
   color: black;
 }
 
-.categories {
-  padding: 0;
-  align-items: left;
-  margin: 0;
+header div.content-wrap div.categories {
+  margin-bottom: 25px;
 }
 
 header div.categories ul {
   list-style: none;
   text-align: left;
-  margin-bottom: 25px;
 }
 header div.categories ul li {
   display: inline-block;
