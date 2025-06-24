@@ -57,19 +57,14 @@ header {
   top: 0;
   z-index: 1;
 }
-header div.top-navigation {
+header div.content-wrap div.top-navigation {
   display: flex;
   align-items: center;
   margin: 20px auto;
 }
-
-.logo {
-  align-content: center;
-}
-.logo img {
+header div.content-wrap div.top-navigation a img {
   width: 60%;
 }
-
 header div.content-wrap div.top-navigation div.search {
   align-content: center;
   flex-grow: 1;
