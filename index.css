@@ -55,18 +55,24 @@ header {
 }
 header div.top-navigation {
   display: flex;
+  align-items: center;
+  margin: 20px auto;
 }
 
 .logo {
   align-content: center;
 }
 .logo img {
-  height: 60%;
+  width: 60%;
 }
 
 header div.content-wrap div.top-navigation div.search {
   align-content: center;
   flex-grow: 1;
+  height: fit-content;
+}
+header div.content-wrap div.top-navigation div.search input {
+  width: 85%;
 }
 header div.content-wrap div.top-navigation div.search img {
   display: inline;
