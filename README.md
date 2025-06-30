@@ -5,7 +5,7 @@
 
 ## Contact
 
-Name: Vraj K. Patel
+Name: Vraj Kirankumar Patel
 
 ## About
 
