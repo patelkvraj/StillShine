@@ -35,6 +35,10 @@ form {
   padding: 0;
 }
 
+h1 {
+  color: rgb(117, 191, 59);
+}
+
 .button {
   background-color: rgb(117, 191, 59);
   color: white;
@@ -146,13 +150,6 @@ header div.content-wrap div.categories ul ul {
   padding-top: 0;
 }
 
-.icon_index {
-  width: 10%;
-}
-h1 {
-  color: rgb(117, 191, 59);
-}
-
 main div.content-wrap section.hero a {
   text-decoration: none;
   position: relative;
@@ -178,7 +175,9 @@ main div.content-wrap section.hero a:hover {
   border-bottom: 3.5px solid;
   padding-bottom: 40px;
 }
-
+.icon_index {
+  width: 10%;
+}
 .section_call_to_action {
   padding-top: 50px;
 }
