@@ -153,7 +153,7 @@ h1 {
   color: rgb(117, 191, 59);
 }
 
-.button_lets_sell {
+main div.content-wrap section.hero a {
   text-decoration: none;
   position: relative;
   bottom: 500px;
@@ -167,7 +167,7 @@ h1 {
   padding-right: 25px;
   font-weight: bold;
 }
-.button_lets_sell:hover {
+main div.content-wrap section.hero a:hover {
   background-color: white;
   color: black;
 }
