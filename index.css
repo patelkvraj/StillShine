@@ -150,10 +150,16 @@ header div.content-wrap div.categories ul ul {
   padding-top: 0;
 }
 
+main div.content-wrap section.hero {
+  height: 560px;
+  background: url(./images/hero-image.jpg) no-repeat center top;
+  position: relative;
+}
 main div.content-wrap section.hero a {
   text-decoration: none;
-  position: relative;
-  bottom: 500px;
+  position: absolute;
+  bottom: 78px;
+  left: 46%;
   background-color: transparent;
   border: 1.5px solid white;
   border-radius: 0 !important;
