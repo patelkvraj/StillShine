@@ -35,6 +35,10 @@ form {
   padding: 0;
 }
 
+h1 {
+  color: rgb(117, 191, 59);
+}
+
 .button {
   background-color: rgb(117, 191, 59);
   color: white;
@@ -146,17 +150,16 @@ header div.content-wrap div.categories ul ul {
   padding-top: 0;
 }
 
-.icon_index {
-  width: 10%;
-}
-h1 {
-  color: rgb(117, 191, 59);
-}
-
-.button_lets_sell {
-  text-decoration: none;
+main section.hero {
+  height: 560px;
+  background: url(./images/hero-image.jpg) no-repeat center top;
   position: relative;
-  bottom: 500px;
+}
+main section.hero a {
+  text-decoration: none;
+  position: absolute;
+  bottom: 78px;
+  left: 46%;
   background-color: transparent;
   border: 1.5px solid white;
   border-radius: 0 !important;
@@ -167,7 +170,7 @@ h1 {
   padding-right: 25px;
   font-weight: bold;
 }
-.button_lets_sell:hover {
+main section.hero a:hover {
   background-color: white;
   color: black;
 }
@@ -178,7 +181,9 @@ h1 {
   border-bottom: 3.5px solid;
   padding-bottom: 40px;
 }
-
+.icon_index {
+  width: 10%;
+}
 .section_call_to_action {
   padding-top: 50px;
 }
