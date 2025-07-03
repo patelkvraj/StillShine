@@ -150,12 +150,12 @@ header div.content-wrap div.categories ul ul {
   padding-top: 0;
 }
 
-main div.content-wrap section.hero {
+main section.hero {
   height: 560px;
   background: url(./images/hero-image.jpg) no-repeat center top;
   position: relative;
 }
-main div.content-wrap section.hero a {
+main section.hero a {
   text-decoration: none;
   position: absolute;
   bottom: 78px;
@@ -170,7 +170,7 @@ main div.content-wrap section.hero a {
   padding-right: 25px;
   font-weight: bold;
 }
-main div.content-wrap section.hero a:hover {
+main section.hero a:hover {
   background-color: white;
   color: black;
 }
