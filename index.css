@@ -174,15 +174,17 @@ main section.hero a:hover {
   color: black;
 }
 
-.section-about {
+main section.about {
   width: 85%;
   margin: 0px auto;
   border-bottom: 3.5px solid;
   padding-bottom: 40px;
+  padding-top: 75px;
+
+  background: url(./images/icons/recycle-icon.png) no-repeat center top;
+  background-size: 75px 75px;
 }
-.icon_index {
-  width: 10%;
-}
+
 .section_call_to_action {
   padding-top: 50px;
 }
