@@ -1,6 +1,6 @@
 # Still Shine
 
-- **Link**: https://patelkvraj.github.io/StillShine/
+- **Link (Updated)**: https://stillshine.infinityfreeapp.com
 - Created on: 10/05/2024
 
 ## Contact
